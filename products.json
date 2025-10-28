@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "title": "W STROKE B VENTILATION LONG SLEEVE [BLACK]",
+        "price": 59000,
+        "image": "https://image.msscdn.net/thumbnails/images/goods_img/20250917/5482541/5482541_17588522760344_500.jpg?w=780",
+        "category": "슬리브",
+        "brand": "본투윈",
+        "desc": "흡습속건, UV차단 기능성 나일론 스판 원단"
+    },
+    {
+        "id": 2,
+        "title": "풀핑거 에센셜 러닝 장갑",
+        "price": 28200,
+        "image": "https://image.msscdn.net/thumbnails/images/goods_img/20250908/5417741/5417741_17586060002882_500.jpg?w=780",
+        "category": "장갑",
+        "brand": "아디다스",
+        "desc": "Aeroready 소재 기술과 robex 코팅을 통해 착용감, 내구성, 그립감을 극대화하며 스마트 기기 터치 스크린 기능까지 지원합니다"
+    },
+    {
+        "id": 3,
+        "title": "데일리 소프트 니트 머플러 (CHARCOAL)",
+        "price": 19040,
+        "image": "https://image.msscdn.net/thumbnails/images/goods_img/20250917/5480557/5480557_17580974685874_500.jpg?w=780",
+        "category": "머플러",
+        "brand": "토피 우먼",
+        "desc": "베이직한 컬러구성, 헤어리한 원단감, 적당한 폭과 길이"
+    },
+    {
+        "id": 4,
+        "title": "P-6 로고 업라이절 크루 스웨트셔츠 / 39657Q7",
+        "price": 151050,
+        "image": "https://image.msscdn.net/thumbnails/images/goods_img/20250812/5314789/5314789_17549809275682_500.jpg?w=780",
+        "category": "스웨트셔츠",
+        "brand": "파타고니아",
+        "desc": "브러쉬드 처리된 내부와 자연스러운 신축성을 가진 100% 리사이클 니트 플리스 원단으로 만들어졌으며, 포스트컨슈머 리사이클 폴리에스터 55%와 리사이클 순면 45% 혼방으로 부드럽고 내구성이 좋습니다."
+    },
+    {
+        "id": 5,
+        "title": "SHIRRING (셔링) 여성 다운 자켓_Sky BLUE",
+        "price": 314000,
+        "image": "https://image.msscdn.net/thumbnails/images/goods_img/20250923/5515877/5515877_17609423730636_500.jpg?w=780",
+        "category": "패딩",
+        "brand": "아이더",
+        "desc": "지금 핫한 셔링 디테일에 주목! 아이더가 담아낸 여성 아웃도어의 품격 '셔링' 시리즈"
+    }
+]
