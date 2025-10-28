@@ -1,0 +1,28 @@
+.weather {
+    user-select: none;
+    width: calc(100vw - 80px);
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row-reverse;
+    .info {
+        width: 30%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 0.5px solid #ededed;
+        border-radius: 4px;
+        box-shadow: 0 1px 3px #11111110;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .map {
+        width: 60%;
+        margin: 0 auto;
+        height: 500px;
+    }
+}

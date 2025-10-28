@@ -1,0 +1,67 @@
+@use '../assets/scss/var' as v;
+@use '../assets/scss/mixin' as m;
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.2);
+    // 배경색이 투명한 색이 들어갔을 때만 적용되는 옵션이 있음: backdrop-filter
+    // backdrop-filter: 내 뒤에있는 배경을 조정함
+    // 1. saturate(나의밝기): 내뒤에있는 배경을 살짝 밝게해서 내가 잘 보이게 조정
+    // 2. blur(블러처리): 내뒤에있는 배경을 수치만큼 블러처리
+    backdrop-filter: saturate(180%) blur(8px);
+
+    .logo {
+        font-weight: bold;
+        font-size: clamp(16px, 2.5vw, 25px); // clamp(최소값, 선호값, 최대값)
+        letter-spacing: 0.2px; // 기본이 0
+        color: v.$text-dark;
+        padding: 10px;
+        margin-left: 30px;
+    }
+
+    .menuList {
+        @include m.flex-center;
+        gap: v.$gap;
+        margin-right: 30px;
+
+        // 768px보다 작으면
+        // 변수로 꼭 던져주기 ✨✨✨✨
+        @include m.respond(v.$bp-md) {
+            background-color: red;
+            margin-right: 5px;
+        }
+
+        a {
+            position: relative;
+            padding: 6px 10px;
+            font-weight: 700;
+            color: v.$text-dark;
+            transition: all 0.3s linear;
+
+            &:hover {
+                background-color: rgba(0, 0, 0, 0.04);
+                transform: translateY(-1px);
+            }
+        }
+
+        .active {
+            color: v.$main-color;
+
+            &::after {
+                content: '';
+                position: absolute;
+                left: 10px;
+                right: 10px;
+                bottom: 1px;
+                height: 2px;
+                border-radius: 2px;
+                background-color: #4d4d4d;
+            }
+        }
+    }
+}
